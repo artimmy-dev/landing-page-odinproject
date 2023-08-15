@@ -1,0 +1,85 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/*Aqui estan los estilos de Header y Hero*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px 180px 120px 180px;
+    background-color: #1F2937;
+    color: white;
+    gap: 70px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 2.4rem;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 1.6rem;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero-content {
+    width: 50%;
+    flex: 0 1 auto;
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-content p {
+    font-size: 1.8rem;
+    color: #E5E7EB;
+}
+
+.hero-content button {
+    margin-top: 15px;
+    padding: 8px 30px;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.hero-image {
+    flex: 1 0 auto;
+    background-color: grey;
+}
+
+
+/*Aqui están los estilos de la sección informativa*/
